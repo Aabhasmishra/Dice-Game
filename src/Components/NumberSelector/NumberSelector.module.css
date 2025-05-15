@@ -1,0 +1,54 @@
+.container1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container2{
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.score{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.displayScore{
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 80px;
+}
+
+.score p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.selectNum{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 30px;
+}
+
+.select_btn{
+    display: flex;
+    gap: 24px;
+}
+
+.select_btn button{
+    height: 72px;
+    width: 72px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.selectNum p, .select_btn button{
+    font-size: 24px;
+    font-weight: 700;
+}
