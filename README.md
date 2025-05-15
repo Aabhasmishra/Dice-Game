@@ -34,55 +34,54 @@ Follow these steps to set up the project locally:
 2. Navigate to the project directory:
    ```bash
    cd Dice-Game
-
    ```
 3. Install dependencies:
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
 4. Start the development server:
-```bash
-npm run dev
-```
+   ```bash
+   npm run dev
+   ```
 5. Open your browser and go to:
-```bash
-http://localhost:5173
-```
+   ```bash
+   http://localhost:5173
+   ```
 
 ## 🧾 Project Structure
-```bash
-Dice-Game/
-├── public/
-│   └── dice-game-screenshot.png   # Preview image
-├── src/
-│   ├── Components/
-│   │   ├── Dice.jsx
-│   │   ├── RollDice.jsx
-│   │   └── Title.jsx
-│   ├── App.jsx
-│   └── main.jsx            
-├── index.html                    
-├── package.json
-├── vite.config.js
-└── README.md                      
-```
+   ```bash
+   Dice-Game/
+   ├── public/
+   │   └── dice-game-screenshot.png   # Preview image
+   ├── src/
+   │   ├── Components/
+   │   │   ├── Dice.jsx
+   │   │   ├── RollDice.jsx
+   │   │   └── Title.jsx
+   │   ├── App.jsx
+   │   └── main.jsx            
+   ├── index.html                    
+   ├── package.json
+   ├── vite.config.js
+   └── README.md                      
+   ```
 
 ## 🤝 Contributing
 Contributions are welcome! If you'd like to improve the game or fix bugs:
 
 1. Fork the repository.
 2. Create a new branch:
-```bash
-git checkout -b feature/YourFeature
-```
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
 3. Commit your changes:
-```bash
-git commit -m 'Add YourFeature'
-```
+   ```bash
+   git commit -m 'Add YourFeature'
+   ```
 4. Push to the branch:
-```bash
-git push origin feature/YourFeature
-```
+   ```bash
+   git push origin feature/YourFeature
+   ```
 5. Open a pull request.
 
 ## ✍️ Author
