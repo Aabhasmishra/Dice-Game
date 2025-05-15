@@ -1,0 +1,31 @@
+/* I am not using this css properties in this website. Insed I used styled-components */
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.diceGame{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.diceGame div{
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.diceGame button{
+    width: 220px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
